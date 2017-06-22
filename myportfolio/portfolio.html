@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Portfolio</title>
+  <!-- Bootstrap -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">My Portfolio</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand" href="#">My Portfolio</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+          <li><a href="#works"><span class="glyphicon glyphicon-paperclip"></span>Works</a></li>
+          <li><a href="#skills"><span class="glyphicon glyphicon-wrench"></span>Skills</a></li>
+          <li><a href="#links"><span class="glyphicon glyphicon-link"></span>Links</a></li>
+          <li><a href="#info"><span class="glyphicon glyphicon-info-sign"></span>Info</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>My Portfolio</h1>
+          <p>ポートフォリオ公開ページ</p>
+        </div>
+
+        <div class="col-sm-6">
+          <img src="portfolio1.png" style="padding:0" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contents container-->
+  <div  id="contents"class="container">
+    <div class="starter-template">
+      <!--works highlight-->
+      <h1 id="works"><span class="glyphicon glyphicon-paperclip"></span>Works</h1>
+      <!--works highlight end-->
+      <!--works container-->
+      <div class="container">
+        <h4 class="message">こちらは、作製した HP やアプリケーションを公開しております</h4>
+
+        <h4><span class="glyphicon glyphicon-file"></span>HP</h4>
+        <div class="media">
+          <a class="media-left" href="#">
+            <img src="portfolio-1.jpg" class="image" width="80" height="64">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">My Portfolio</h4> ポートフォリオ公開ページで、今見ているこちらのページです。
+            <br>
+            <span class="glyphicon glyphicon-arrow-right"></span>HTML/CSS,Bootstrap(レスポンシブデザイン仕様）
+
+          </div>
+        </div>
+        <h4 style="color:gray"><span class="glyphicon glyphicon-cog"></span>アプリケーション(作製中)</h4>
+
+      </div>
+      <!--works end-->
+      <hr>
+      <!--skills highlight-->
+      <h1 id="skills"><span class="glyphicon glyphicon-wrench"></span>Skills</h1>
+      <!--skills highlight end-->
+      <!--skills container-->
+      <div class="container">
+        <h4 class="message">こちらは、学習・使用経験のある言語を公開しております</h4>
+        <div class="skill front-end">
+          <h4 class="front"><span class="glyphicon glyphicon-file"></span>フロントエンド</h4>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skill programming">
+          <h4 class="prog"><span class="glyphicon glyphicon-cog"></span>プログラミング</h4>
+          <ul class="program">
+            <li>PHP</li>
+            <li>Ruby</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="skill library-framework">
+          <h4 class="lib"><span class="glyphicon glyphicon-book"></span>ライブラリ・フレームワーク</h4>
+          <ul>
+            <li>Bootstrap</li>
+            <li>jQuery</li>
+            <li>AngularJS</li>
+            <li>Ruby on Rails</li>
+          </ul>
+        </div>
+      </div>
+      <!--skills container end-->
+      <hr>
+      <!--links highlight-->
+      <h1 id="links"><span class="glyphicon glyphicon-link"></span>Links</h1>
+      <!--links highlight end-->
+      <!--links container-->
+      <div class="container">
+        <h4 class="message">こちらは自分の書いたコードの公開や、自分が調べたこと・解決方法の発信を行っているリンク集です。</h4>
+        <h5 class="message2">
+        ※アイコンをクリックするとそのページにジャンプします
+       </h5>
+
+        <!--GitHub media-->
+        <div class="media">
+          <a class="media-left" href="https://github.com/clefdelph" target="_blank">
+            <img src="GitHub-Mark-64px.png" class="image">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">GitHub</h4> 自分の書いたコードを保存し、公開しています
+          </div>
+        </div>
+        <!--GitHub media end-->
+        <!--Qiita media-->
+        <div class="media">
+          <a class="media-left" href="http://qiita.com/delph" target="_blank">
+            <img src="qiita-favicon.png" class="image" width="64" height="64">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">Qiita</h4> 自分で学習したことや調べたこと、エラーの解決策等を発信しています
+          </div>
+        </div>
+        <!--Qiita media end-->
+
+      </div>
+      <!--links container end-->
+      <hr>
+      <!--Info highlight-->
+      <h1 id="info"><span class="glyphicon glyphicon-info-sign"></span>Info</h1>
+      <!--Info highlight end-->
+      <!--Info container -->
+      <div class="container">
+      <h4 class="message">こちらは更新情報です。このポートフォリオに更新があった場合、お知らせいたします。</h4>
+      <!--info-message-->
+      <div class="alert-info info-message">
+        <h4>2017/06/22<span class ="badge">NEW!!</span></h4>
+        <p>
+          Info ページを設立しました
+        </p>
+      </div>
+      <!--info-message end-->
+      <!--info-message-->
+      <div class="alert-info info-message">
+        <h4>2017/06/18<span class ="badge">NEW!!</span> </h4>
+        <p>
+          Qiita に新規投稿をしました「プログラミング3か月目」
+        </p>
+     </div>
+     <!--info-message end-->
+      </div>
+      <!--Info container end-->
+
+      <!--top button-->
+      <div id="top">
+      <a href="#" id="top-btn" class="btn btn-primary">
+        <span class="glyphicon glyphicon-triangle-top"></span>TOP
+      </a>
+      </div>
+      <!--top button end-->
+
+    </div>
+    <!--<div class="container">-->
+
+  </div>
+  <!-- contents container end -->
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
