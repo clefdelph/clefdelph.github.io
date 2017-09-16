@@ -34,23 +34,50 @@
    .github{
      border:1px dotted black;
    }
-   .media{
-     padding:10px;
+
+  .media{
+     position:relative;
+     border: 1px solid black;
+     box-shadow: 2px 2px 5px #999
+          
    }
+      
+   .media:hover{
+      opacity:0.7;
+   }
+      
+   .media a {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      text-decoration:none;
+      }
+      
+   .media img{
+      float:left;
+      margin-right:20px;
+          
+     }
+      
+   .github{
+      background:#CCCCCC;
+      padding:20px; 
+      transition:all 0.5s;
+    }
+      
+   .qiita{
+       background:#44ff66;
+       padding:20px;
+       transition:all 0.5s;
+    }
 
    .message{
      padding:   20px;
    }
    .message2{
      padding: 10px 20px;
-   }
-
-   .image{
-     transition: all 0.5s;
-   }
-
-   .image:hover{
-     opacity:0.7;
    }
 
 #top-btn{
