@@ -16,21 +16,106 @@
     background-image: url(sky.jpg);
    background-size:cover;}
 
-   .front{
-     color: orange;
-   }
-   .prog{
-     color:gray;
-   }
-   .terminal{
-     color:black;
-   }
-   .learn{
-     color:green;
-   }
-   .skill{
-     padding:10px;
-   }
+   /* skill */
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+.glyphicon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.front-end {
+  width: 80%;
+  border: 2px solid orange;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px orange;
+}
+
+.front {
+  font-size: 25px;
+  color: white;
+  background: orange;
+  border: 2px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.programming {
+  width: 80%;
+  border: 2px solid silver;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px silver;
+}
+
+.prog {
+  font-size: 25px;
+  color: white;
+  background: silver;
+  border: 2px solid silver;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.library-framework {
+  width: 80%;
+  border: 2px solid blue;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px blue;
+}
+
+.lib {
+  font-size: 25px;
+  color: white;
+  background: blue;
+  border: 2px solid blue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.badge {
+  margin-left: 10px;
+}
+
+.term {
+  width: 80%;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.terminal {
+  font-size: 25px;
+  color: white;
+  background: gray;
+  border: 2px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.learning {
+  width: 80%;
+  border: 2px solid green;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px green;
+}
+
+.learn {
+  font-size: 25px;
+  color: white;
+  background: green;
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* skill end */
+/* links */
    .github{
      border:1px dotted black;
    }
@@ -75,6 +160,8 @@
        transition:all 0.5s;
     }
 
+/* links end */
+/* info */
    .message{
      padding:   20px;
    }
@@ -97,3 +184,4 @@
   border-radius: 5px;
   box-shadow: 2px 2px 5px #999;
 }
+/* info end */
