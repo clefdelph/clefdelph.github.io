@@ -1,33 +1,33 @@
 @charset "UTF-8";
-  body {
-    padding-top: 50px;
-    background-color: lightgray;
-  }
 
-  .starter-template {
-    padding: 40px 40px;
-    background-color: white;
-  }
-  .glyphicon{
-    margin-right: 10px;
-  }
-  .jumbotron
-  { color:#FFF;
-    background-image: url(sky.jpg);
-   background-size:cover;}
+body {
+  padding-top: 50px;
+  background-color: lightgray;
+}
 
-   /* skill */
+.starter-template {
+  padding: 40px 40px;
+  background-color: white;
+}
+
+.glyphicon {
+  margin-right: 10px;
+}
+
+.jumbotron {
+  color: #FFF;
+  background-image: url(sky.jpg);
+  background-size: cover;
+}
+
+/* skill */
+
 ul {
   list-style: none;
 }
 
 li {
   padding: 5px;
-}
-
-.glyphicon {
-  font-size: 25px;
-  margin-right: 10px;
 }
 
 .front-end {
@@ -115,73 +115,81 @@ li {
 }
 
 /* skill end */
-/* links */
-   .github{
-     border:1px dotted black;
-   }
 
-  .media{
-     position:relative;
-     border: 1px solid black;
-     width:80%;
-     border-radius: 5px;
-     box-shadow: 2px 2px 5px #999;
-   }
-    
-      
-   .media:hover{
-      opacity:0.7;
-   }
-      
-   .media a {
-      position:absolute;
-      top:0;
-      left:0;
-      width:100%;
-      height:100%;
-      text-decoration:none;
-      }
-      
-   .media img{
-      float:left;
-      margin-right:20px;
-          
-     }
-      
-   .github{
-      background:#CCCCCC;
-      padding:20px; 
-      transition:all 0.5s;
-    }
-      
-   .qiita{
-       background:#44ff66;
-       padding:20px;
-       transition:all 0.5s;
-    }
+/* links */
+
+.github {
+  border: 1px dotted black;
+}
+
+.media {
+  position: relative;
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #999;
+  padding: 20px;
+}
+
+
+.media:hover {
+  opacity: 0.7;
+}
+
+.media a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.media img {
+  float: left;
+  margin-right: 20px;
+
+}
+
+.github {
+  background: #CCCCCC;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+.qiita {
+  background: #44ff66;
+  padding: 20px;
+  transition: all 0.5s;
+}
 
 /* links end */
+
 /* info */
-   .message{
-     padding:   20px;
-   }
-   
-#top-btn{
-  position:fixed;
-  bottom:10px;
-  right:60px;
+
+.message {
+  padding: 20px;
+}
+
+#top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 60px;
   text-decoration: none;
   z-index: 1;
 
 }
- .badge{
-  margin-left:10px;
+
+.badge {
+  margin-left: 10px;
 }
-.info-message{
-  width:80%;
-  padding:15px;
-  margin :20px;
+
+.info-message {
+  width: 80%;
+  padding: 15px;
+  margin: 20px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #999;
 }
+
 /* info end */
