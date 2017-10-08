@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
+/* general */
+
 body {
   padding-top: 50px;
   background-color: lightgray;
 }
 
 .starter-template {
-  padding: 40px 40px;
+  padding: 40px;
   background-color: white;
 }
 
@@ -20,115 +22,25 @@ body {
   background-size: cover;
 }
 
-/* skill */
 
-ul {
-  list-style: none;
-}
-
-li {
-  padding: 5px;
-}
-
-.front-end {
-  width: 80%;
-  border: 2px solid orange;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 5px orange;
-}
-
-.front {
-  font-size: 25px;
-  color: white;
-  background: orange;
-  border: 2px solid orange;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.programming {
-  width: 80%;
-  border: 2px solid silver;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 5px silver;
-}
-
-.prog {
-  font-size: 25px;
-  color: white;
-  background: silver;
-  border: 2px solid silver;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.library-framework {
-  width: 80%;
-  border: 2px solid blue;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 5px blue;
-}
-
-.lib {
-  font-size: 25px;
-  color: white;
-  background: blue;
-  border: 2px solid blue;
-  padding: 10px;
-  margin-bottom: 10px;
-}
+/* module */
 
 .badge {
   margin-left: 10px;
 }
 
-.term {
-  width: 80%;
-  border: 2px solid gray;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 5px gray;
+.badge-move {
+  background-color: lime;
 }
 
-.terminal {
-  font-size: 25px;
-  color: white;
-  background: gray;
-  border: 2px solid gray;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.learning {
-  width: 80%;
-  border: 2px solid green;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 5px green;
-}
-
-.learn {
-  font-size: 25px;
-  color: white;
-  background: green;
-  border: 2px solid green;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-/* skill end */
-
-/* links */
-
-.github {
-  border: 1px dotted black;
-}
 
 .media {
   position: relative;
   border: 1px solid black;
   width: 80%;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #999;
-  padding: 20px;
 }
 
 
@@ -151,7 +63,128 @@ li {
 
 }
 
+
+/* skill */
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+.skill {
+  width: 80%;
+}
+
+.glyphicon {
+
+  margin-right: 10px;
+}
+
+.front-end {
+
+  border: 2px solid orange;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px orange;
+}
+
+.front {
+  font-size: 25px;
+  color: white;
+  background: orange;
+  border: 2px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.programming {
+
+  border: 2px solid silver;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px silver;
+}
+
+.prog {
+  font-size: 25px;
+  color: white;
+  background: silver;
+  border: 2px solid silver;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.library-framework {
+
+  border: 2px solid #3333ff;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px #3333ff;
+}
+
+.lib {
+  font-size: 25px;
+  color: white;
+  background: #3333ff;
+  border: 2px solid #3333ff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.term {
+
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.terminal {
+  font-size: 25px;
+  color: white;
+  background: gray;
+  border: 2px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.learning {
+
+  border: 2px solid green;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px green;
+}
+
+.learn {
+  font-size: 25px;
+  color: white;
+  background: green;
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.other_container {
+  border: 2px solid #ff4d4d;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px #ff4d4d;
+}
+
+.other_box {
+  font-size: 25px;
+  color: white;
+  background: #ff4d4d;
+  border: 2px solid #ff4d4d;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* links */
+
 .github {
+  border: 1px dotted black;
   background: #CCCCCC;
   padding: 20px;
   transition: all 0.5s;
@@ -163,26 +196,12 @@ li {
   transition: all 0.5s;
 }
 
-/* links end */
-
 /* info */
 
 .message {
   padding: 20px;
 }
 
-#top-btn {
-  position: fixed;
-  bottom: 10px;
-  right: 60px;
-  text-decoration: none;
-  z-index: 1;
-
-}
-
-.badge {
-  margin-left: 10px;
-}
 
 .info-message {
   width: 80%;
@@ -192,4 +211,13 @@ li {
   box-shadow: 2px 2px 5px #999;
 }
 
-/* info end */
+/* other */
+
+#top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 60px;
+  text-decoration: none;
+  z-index: 1;
+
+}
