@@ -64,7 +64,7 @@ body {
 }
 
 
-/* skill */
+/* skills */
 
 ul {
   list-style: none;
@@ -74,23 +74,19 @@ li {
   padding: 5px;
 }
 
-.skill {
+.skills {
   width: 80%;
 }
 
-.glyphicon {
 
-  margin-right: 10px;
-}
-
-.front-end {
+.frontEnd_container {
 
   border: 2px solid orange;
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px orange;
 }
 
-.front {
+.frontEnd_box {
   font-size: 25px;
   color: white;
   background: orange;
@@ -99,14 +95,14 @@ li {
   margin-bottom: 10px;
 }
 
-.programming {
+.programming_container {
 
   border: 2px solid silver;
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px silver;
 }
 
-.prog {
+.programming_box {
   font-size: 25px;
   color: white;
   background: silver;
@@ -115,14 +111,14 @@ li {
   margin-bottom: 10px;
 }
 
-.library-framework {
+.framework_container {
 
   border: 2px solid #3333ff;
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px #3333ff;
 }
 
-.lib {
+.framework_box {
   font-size: 25px;
   color: white;
   background: #3333ff;
@@ -132,14 +128,14 @@ li {
 }
 
 
-.term {
+.terminal_container {
 
   border: 2px solid gray;
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px gray;
 }
 
-.terminal {
+.terminal_box {
   font-size: 25px;
   color: white;
   background: gray;
@@ -148,14 +144,14 @@ li {
   margin-bottom: 10px;
 }
 
-.learning {
+.learning_container {
 
   border: 2px solid green;
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px green;
 }
 
-.learn {
+.learning_box {
   font-size: 25px;
   color: white;
   background: green;
